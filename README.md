@@ -2,6 +2,7 @@
 
 A simple web application for tracking expenses.
 
+![image](https://github.com/Batra1-2-3/expense-tracker/assets/109741876/455ee52a-c8c0-4a57-b7cf-56ddb92e4dd1)
 
 
 ## 🚀 Features
