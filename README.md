@@ -23,4 +23,4 @@ A simple web application for tracking expenses.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/expense-tracker.git
+   git clone https://github.com/Batra1-2-3/expense-tracker.git
