@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Money Tracker Web App</title>
+</head>
+<body>
+    <h1>Money Tracker Web App</h1>
+    <div class="input-section">
+        <label for="category-select">Category:</label>
+        <select id="category-select">
+            <option value="College Fee">College Fee</option>
+            <option value="Rent">Rent</option>
+            
+            <option value="Transportation">Transportation</option>
+<option value="Groceries">Groceries</option>
+<option value="Utilities">Utilities</option>
+<option value="Entertainment">Entertainment</option>
+<option value="Healthcare">Healthcare</option>
+<option value="Insurance">Insurance</option>
+<option value="Gifts">Gifts</option>
+<option value="Travel">Travel</option>
+<option value="Dining Out">Dining Out</option>
+<option value="Home Improvement">Home Improvement</option>
+<option value="Technology">Technology</option>
+<option value="Clothing">Clothing</option>
+<option value="Hobbies">Hobbies</option>
+<option value="Pet Care">Pet Care</option>
+<option value="Charity">Charity</option>
+          <option value="Other">Other</option>
+        </select>
+        <input type="text" id="other-category" placeholder="Enter Category" style="display: none;">
+        <br>
+        <label for="amount-input">Amount:</label>
+        <input type="number" id="amount-input">
+        <br>
+        <label for="date-input">Date:</label>
+        <input type="date" id="date-input">
+        <button id="add-btn">Add</button>
+    </div>
+    <div class="expenses-list">
+        <h2>Expenses List</h2>
+        <table class="expense-table">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Amount</th>
+                    <th>Date</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="expense-table-body">
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total:</td>
+                    <td id="total-amount" colspan="3">0</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
